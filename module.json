@@ -1,0 +1,17 @@
+{
+    "name": "Custom Briefing",
+    "description": "Add a custom briefing tab to client profiles.",
+    "author": "Your Name",
+    "version": "1.0",
+    "is_backend": true,
+    "is_frontend": false,
+    "menu": {
+        "name": "Briefing",
+        "icon": "fa fa-comment",
+        "position": 20,
+        "path": "admin/clients/briefing"
+    },
+    "install": {
+        "sql": "install.sql"
+    }
+}
